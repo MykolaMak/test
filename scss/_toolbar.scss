@@ -1,0 +1,20 @@
+.toolbar {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  max-width: 70vw;
+
+  input {
+    height: 1.75rem;
+    border: 1px solid rgb(96, 125, 139);
+
+    &::placeholder {
+      color: black;
+      text-indent: 1rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@mixin display-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: auto;
+
+  max-width: 70vw;
+}
+
+@import "button";
+@import "header";
+@import "toolbar";
+@import "posts";
+@import "about";
+@import "contact";
+@import "footer";
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.about img {
+  width: 100vw;
+  max-width: 100%;
+}
